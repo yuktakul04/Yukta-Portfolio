@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  background-color: #09090f;
+  background-color: #0e0b1a;
   color: #e8e8f8;
   font-family: var(--font-inter);
   -webkit-font-smoothing: antialiased;
@@ -45,7 +45,7 @@ body {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #09090f;
+  background: #0e0b1a;
 }
 ::-webkit-scrollbar-thumb {
   background: #252535;
@@ -72,14 +72,14 @@ body {
   }
 
   .glass {
-    background: rgba(17, 17, 24, 0.6);
+    background: rgba(22, 15, 40, 0.6);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.06);
   }
 
   .glass-strong {
-    background: rgba(17, 17, 24, 0.85);
+    background: rgba(22, 15, 40, 0.85);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.08);
